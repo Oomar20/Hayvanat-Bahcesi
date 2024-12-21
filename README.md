@@ -38,7 +38,7 @@ Simülasyondaki tüm varlıklar için temel sınıf. Sağlar:
 
 #### `Animal`
 Hayvanları temsil eden `Entity` sınıfının bir alt sınıfıdır. Şunları ekler:
-- Üreme mantığı için cinsiyet özniteliği (`M` veya `F`.
+- Üreme mantığı için cinsiyet özniteliği (`M` veya `F`).
 
 #### `Hunter`
 Avcıyı temsil eden `Entity` sınıfının bir alt sınıfıdır. 1 birimlik bir aralıkta hareket eder ve simülasyon sırasında hayvanlarla etkileşime girer.
