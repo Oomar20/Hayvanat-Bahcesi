@@ -29,7 +29,7 @@ Bu fonksiyon, varlıklar arasındaki etkileşimleri işler:
 ### `count_species(animals)`
 Simülasyon sonunda kalan her türün sayısını sayar ve yazdırır. Bu, simülasyon boyunca nüfus dinamiklerini analiz etmeye yardımcı olur.
 
-### Class Definitions
+### Sınıf Tanımları
 
 #### `Entity`
 Simülasyondaki tüm varlıklar için temel sınıf. Sağlar:
@@ -43,7 +43,7 @@ Hayvanları temsil eden `Entity` sınıfının bir alt sınıfıdır. Şunları 
 #### `Hunter`
 Avcıyı temsil eden `Entity` sınıfının bir alt sınıfıdır. 1 birimlik bir aralıkta hareket eder ve simülasyon sırasında hayvanlarla etkileşime girer.
 
-## Movement Ranges
+## Hareket Aralıkları
 Her türün önceden tanımlanmış bir hareket aralığı vardır:
 - **Koyun, İnek**: 2 birim
 - **Horoz, Tavuk**: 1 birim
@@ -51,7 +51,7 @@ Her türün önceden tanımlanmış bir hareket aralığı vardır:
 - **Aslan**: 4 birim
 - **Avcı**: 1 birim
 
-## Simulation Flow
+## Simülasyon Akışı
 1. Varlıkları başlatın.
 2. 1000 tur boyunca:
    - Her varlığı hareket aralığında hareket ettirin.
